@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using FarmingRPG.Player;
 
 namespace FarmingRPG.UI
@@ -14,18 +15,18 @@ namespace FarmingRPG.UI
         
         [Header("Health UI")]
         [SerializeField] private Image healthBar;
-        [SerializeField] private Text healthText;
-        [SerializeField] private Image healthFillColor = Color.red;
+        [SerializeField] private TMP_Text healthText;
+        [SerializeField] private Color healthFillColor = Color.red;
         
         [Header("Stamina UI")]
         [SerializeField] private Image staminaBar;
-        [SerializeField] private Text staminaText;
-        [SerializeField] private Image staminaFillColor = Color.yellow;
+        [SerializeField] private TMP_Text staminaText;
+        [SerializeField] private Color staminaFillColor = Color.yellow;
         
         [Header("Hunger UI")]
         [SerializeField] private Image hungerBar;
-        [SerializeField] private Text hungerText;
-        [SerializeField] private Image hungerFillColor = Color.green;
+        [SerializeField] private TMP_Text hungerText;
+        [SerializeField] private Color hungerFillColor = Color.green;
         
         private void Start()
         {
